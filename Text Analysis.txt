@@ -1,0 +1,21 @@
+# Text Analysis 📝
+
+A simple script to analyze a text file for word, sentence, and character counts.
+
+## 📋 Features
+- Counts words.
+- Counts sentences.
+- Counts characters.
+
+## 🚀 Quick Start
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/text-analysis.git
+2. Add a text file sample.txt in the project folder.
+3. Run the script:
+python text_analysis.py
+
+Example Usage:
+Word count: 256
+Sentence count: 15
+Character count: 1540
