@@ -1,0 +1,15 @@
+def analyze_text(file_path):
+    with open(file_path, 'r') as f:
+        text = f.read()
+    word_count = len(text.split())
+    sentence_count = text.count('.') + text.count('!') + text.count('?')
+    char_count = len(text)
+
+    return word_count, sentence_count, char_count
+
+file_path = "sample.txt"
+word_count, sentence_count, char_count = analyze_text(file_path)
+
+print(f"Word count: {word_count}")
+print(f"Sentence count: {sentence_count}")
+print(f"Character count: {char_count}")
